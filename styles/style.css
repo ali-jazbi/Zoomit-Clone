@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+@font-face {
+    font-family: 'vazir';
+    src: url('../font/vazir.ttf') format('truetype');
+}
+body{
+    font-family: 'vazir', sans-serif;
+    font-size: 16px;
+    background-color: #575757;
+    color: #000;
+    overflow-x: hidden;
+    height: 4000px;
+}
+/* scroll bar custom */
+::-webkit-scrollbar {
+    width: 13px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+    background: #b7b7b7;
+    border-radius: 100px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #9a9a9a;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+ul{
+    list-style: none;
+}
+
+/* Custom Classes */
+.navbar{
+    position: fixed;
+    width: 100%;
+    height: 55px;
+    background-color: transparent;
+    z-index: 999;
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+    color: white;
+}
+.nav{
+    padding: 0 !important;
+    margin: 0 !important;
+}
