@@ -51,6 +51,13 @@ ul{
     /* box-shadow: 0 0 10px rgba(0,0,0,.2); */
     color: white;
 }
+.shrink{
+    background-color: white !important;
+    transition: .3s all ease-in-out;
+}
+.shrink a{
+    color: #000 !important;
+}
 .nav a{
     font-size: 14px;
     padding: 0 20px;
