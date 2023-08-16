@@ -13,7 +13,7 @@
     <title>Zoomit Clone</title>
 </head>
 <body>
-    <!-- Start Navbar Pc -->
+    <!-- SECTION Start Navbar Pc -->
     <nav class="navbar px-3 d-flex align-items-center">
         <ul class="nav d-flex align-items-center">
             <a class="navbar-brand" href="#">
@@ -65,7 +65,109 @@
     </nav>
     <!-- End Navbar Pc -->
 
-    <!-- Modal -->
+    <!-- SECTION Start main -->
+    <main>
+        <!-- NOTE Start Banner -->
+        <div class="container-fluid banner p-0">
+            <div class="row h-100">
+                <div class="col-lg-5 h-100 p-0">
+                    <div class="card text-bg-dark h-100 rounded-0 border-0">
+                        <img src="./Images/banner-1.jpg" class="card-img h-100 rounded-0" alt="...">
+                        <div class="card-img-overlay d-flex flex-column justify-content-end">
+                            <h5 class="card-title px-5 pb-3">بررسی گلکسی زد فلیپ ۵؛ کاربردی تر و جذاب تر از همیشه</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg h-100 p-0">
+                    <div class="card text-bg-dark h-100 rounded-0 border-0">
+                        <img src="./Images/banner-2.webp" class="card-img h-100 rounded-0" alt="...">
+                        <div class="card-img-overlay d-flex flex-column justify-content-end">
+                            <h5 class="card-title px-5 lh-lg">نگاه نزدیک به گلکسی زد فولد ۵؛ وقتی سامسونگ میلی‌متری جهش می‌کند<br> [تماشا کنید]
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg h-100 p-0">
+                    <div class="card text-bg-dark h-100 rounded-0 border-0">
+                        <img src="./Images/banner-3.webp" class="card-img h-100 rounded-0" alt="...">
+                        <div class="card-img-overlay d-flex flex-column justify-content-end">
+                            <h5 class="card-title px-4 lh-lg">
+                                بهترین یخچال فریزر ایرانی و خارجی <br>[مرداد ۱۴۰۲]
+                                </h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Banner -->
+
+        <!-- NOTE Start Category Shop-->
+        <div class="container-fluid Category-Shop bg-white py-3 d-flex justify-content-center">
+            <div class="row w-95">
+                <div class="col-lg-3">
+                    <div class="card border-0 rounded-0">
+                        <div class="card-body">
+                            <h5 class="card-title border-start border-4 border-danger ps-3">با چشم باز خرید کنید</h5>
+                            <p class="card-text text-body-tertiary pt-3 lh-lg">زومیت شما را برای انتخاب بهتر و خرید ارزان‌تر راهنمایی می‌کند</p>
+                            <a href="#" class="btn btn-primary rounded-4 border-0 btn-dark btn-somewhere">ورود به بخش محصولات <i class="bi bi-arrow-left text-danger ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-9">
+                    <div class="category-items h-85 d-flex align-items-center justify-content-between ms-5">
+                        <i class="bi bi-chevron-right"></i>
+                        <div class="row border-start border-end w-100 h-65 mx-4">
+                            <div class="category-box d-flex justify-content-between">
+                                <div class="d-flex flex-column align-items-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 88 80" width="82" height="83"><path d="M33 19c-1.654 0-3 1.346-3 3v36c0 1.654 1.346 3 3 3h22c1.654 0 3-1.346 3-3V22c0-1.654-1.346-3-3-3H33zm22 44H33c-2.757 0-5-2.243-5-5V22c0-2.757 2.243-5 5-5h22c2.757 0 5 2.243 5 5v36c0 2.757-2.243 5-5 5zm-13-8c0 1.104.896 2 2 2 1.105 0 2-.896 2-2s-.895-2-2-2z"></path></svg>
+                                    <h5>گوشی</h5>
+                                </div>
+                                <div class="d-flex flex-column align-items-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 88 80" width="82" height="83">
+                                        <path d="M29 19c-1.654 0-3 1.346-3 3v36c0 1.654 1.346 3 3 3h30c1.654 0 3-1.346 3-3V22c0-1.654-1.346-3-3-3H29zm30 44H29c-2.757 0-5-2.243-5-5V22c0-2.757 2.243-5 5-5h30c2.757 0 5 2.243 5 5v36c0 2.757-2.243 5-5 5zm-17-8c0 1.104.896 2 2 2s2-.896 2-2-.896-2-2-2-2 .896-2 2z"></path></svg>
+                                    <h5>تبلت</h5>
+                                </div>
+                                <div class="d-flex flex-column align-items-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 88 80" width="82" height="83">
+                                        <path d="M62 45c-.552 0-1-.448-1-1V28c0-1.654-1.346-3-3-3H30c-1.654 0-3 1.346-3 3v16c0 .552-.448 1-1 1s-1-.448-1-1V28c0-2.757 2.243-5 5-5h28c2.757 0 5 2.243 5 5v16c0 .552-.448 1-1 1M45 31h-2c-.552 0-1-.448-1-1s.448-1 1-1h2c.552 0 1 .448 1 1s-.448 1-1 1M23 50v2c0 1.654 1.346 3 3 3h36c1.654 0 3-1.346 3-3v-2H52v1c0 .552-.448 1-1 1H37c-.552 0-1-.448-1-1v-1H23zm39 7H26c-2.757 0-5-2.243-5-5v-3c0-.552.448-1 1-1h15c.552 0 1 .448 1 1v1h12v-1c0-.552.448-1 1-1h15c.552 0 1 .448 1 1v3c0 2.757-2.243 5-5 5z" transform="translate(-636.000000, -649.000000) translate(636.000000, 649.000000)"></path></svg>
+                                    <h5>لپتاپ</h5>
+                                </div>
+                                <div class="d-flex flex-column align-items-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 88 80" width="82" height="83">
+                                        <path fill-rule="evenodd" d="M66 53H22c-.552 0-1-.448-1-1V20c0-.552.448-1 1-1h44c.552 0 1 .448 1 1v32c0 .552-.448 1-1 1zm-1-6v4H23v-4h42zm0-26v24H23V21h42zM44 54c.552 0 1 .448 1 1l.001 2.013c6.58.172 11.17 1.978 11.371 2.058.512.205.761.787.556 1.3-.156.391-.532.629-.929.629-.123 0-.248-.023-.37-.071C55.581 60.91 50.704 59 44 59s-11.581 1.91-11.629 1.929c-.516.203-1.095-.046-1.299-.558-.205-.513.044-1.095.556-1.3.202-.08 4.792-1.886 11.372-2.058V55c0-.552.448-1 1-1z" transform="translate(-972.000000, -784.000000) translate(972.000000, 784.000000)"></path></svg>
+                                    <h5>تلوزیون</h5>
+                                </div>
+                                <div class="d-flex flex-column align-items-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 88 80" width="82" height="83">
+                                        <path d="M52 17c.447 0 .839.296.962.726l1.81 6.333C57.164 24.432 59 26.505 59 29v6h3c.552 0 1 .448 1 1v8c0 .552-.448 1-1 1h-3v6c0 2.495-1.836 4.568-4.228 4.94l-1.811 6.335c-.122.429-.515.725-.961.725H32c-.446 0-.839-.296-.961-.725l-1.81-6.334C26.835 55.568 25 53.495 25 51V29c0-2.495 1.836-4.568 4.228-4.94l1.81-6.334c.123-.43.515-.726.962-.726h20zm.675 39h-21.35l1.429 5h18.492l1.429-5zM54 26H30c-1.654 0-3 1.346-3 3v22c0 1.654 1.346 3 3 3h24c1.654 0 3-1.346 3-3V29c0-1.654-1.346-3-3-3zm7 11h-2v6h2v-6zm-19-6c.552 0 1 .448 1 1v7h8c.552 0 1 .448 1 1s-.448 1-1 1h-9c-.552 0-1-.448-1-1v-8c0-.552.448-1 1-1zm9.245-12h-18.49l-1.43 5h21.349l-1.428-5z"></path></svg>
+                                    <h5>ساعت هوشمند</h5>
+                                </div>
+                                <div class="d-flex flex-column align-items-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 88 80" width="82" height="83">
+                                        <path d="M31 33c-4.411 0-8 3.589-8 8 0 4.739 4.139 8.574 9 7.934V33.066c-.336-.044-.671-.066-1-.066zm25 15.934c4.861.641 9-3.194 9-7.934s-4.153-8.567-9-7.934v15.868zM38 61h10v-2H38v2zm11 2H37c-.552 0-1-.448-1-1v-1h-2c-3.86 0-7-3.14-7-7v-3.835c-3.529-1.546-6-5.072-6-9.165 0-4.093 2.472-7.62 6.001-9.166C27.09 23.639 33.784 17 42 17h4c8.216 0 14.91 6.639 14.999 14.834C64.528 33.38 67 36.907 67 41c0 5.514-4.486 10-10 10-.73 0-1.478-.086-2.223-.256-.454-.104-.777-.508-.777-.975V32.231c0-.466.322-.87.777-.974 1.431-.328 2.868-.329 4.199-.061C58.559 24.401 52.898 19 46 19h-4c-6.898 0-12.559 5.401-12.976 12.196 1.33-.268 2.768-.267 4.199.061.455.104.777.508.777.974v17.538c0 .467-.323.871-.777.975-1.443.33-2.887.326-4.223.055V54c0 2.757 2.243 5 5 5h2v-1c0-.552.448-1 1-1h12c.552 0 1 .448 1 1v4c0 .552-.448 1-1 1z" transform="translate(-524.000000, -649.000000) translate(524.000000, 649.000000)"></path></svg>
+                                    <h5>هدفون</h5>
+                                </div>
+                                <div class="d-flex flex-column align-items-center">
+                                    <svg width="82" height="83" viewBox="0 0 88 80" xmlns="http://www.w3.org/2000/svg"><g fill-rule="nonzero"><path d="M66 39a1 1 0 0 1 0 2H22a1 1 0 0 1 0-2h44z"></path><path d="M56 23H32a1 1 0 0 0-.848.47l-10 16A1 1 0 0 0 21 40v16a1 1 0 0 0 1 1h44a1 1 0 0 0 1-1V40a1 1 0 0 0-.152-.53l-10-16A1 1 0 0 0 56 23zm-.554 2L65 40.286V55H23V40.284L32.553 25h22.893z"></path><path d="M58 47a1 1 0 0 1 0 2H30a1 1 0 0 1 0-2h28z"></path></g></svg>
+                                    <h5>هارد</h5>
+                                </div>
+                                <div class="d-flex flex-column align-items-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 88 80" width="82" height="83">
+                                        <path d="M44 34c-.552 0-1-.448-1-1V21c0-.552.448-1 1-1s1 .448 1 1v12c0 .552-.448 1-1 1M32 54c-.552 0-1-.448-1-1v-3h-3c-.552 0-1-.448-1-1s.448-1 1-1h3v-3c0-.552.448-1 1-1s1 .448 1 1v3h3c.552 0 1 .448 1 1s-.448 1-1 1h-3v3c0 .552-.448 1-1 1m9.156-2h5.688c.398 0 .757.235.916.599C49.196 55.88 52.43 58 56 58c4.962 0 9-4.038 9-9s-4.038-9-9-9H32c-4.962 0-9 4.038-9 9s4.038 9 9 9c3.569 0 6.804-2.12 8.24-5.401.159-.364.519-.599.916-.599M56 60c-4.143 0-7.916-2.334-9.788-6h-4.423c-1.874 3.666-5.646 6-9.789 6-6.065 0-11-4.935-11-11s4.935-11 11-11h24c6.065 0 11 4.935 11 11s-4.935 11-11 11m1-12.5c0 .828.672 1.5 1.5 1.5s1.5-.672 1.5-1.5c0-.829-.672-1.5-1.5-1.5s-1.5.671-1.5 1.5zm-4 4c0 .828.672 1.5 1.5 1.5.829 0 1.5-.672 1.5-1.5 0-.829-.671-1.5-1.5-1.5-.828 0-1.5.671-1.5 1.5z" transform="translate(-1308.000000, -514.000000) translate(1308.000000, 514.000000)"></path></svg>
+                                    <h5>کنسول بازی</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <i class="fas fa-chevron-left"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Category Shop -->
+    </main>
+    <!-- End main -->
+
+    <!-- NOTE Start Modal -->
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
         <div class="modal-content">
@@ -97,6 +199,7 @@
         </div>
         </div>
     </div>
+    <!-- End Modal -->
 
 
 
