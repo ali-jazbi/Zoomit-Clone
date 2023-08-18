@@ -147,15 +147,15 @@ ul{
 }
 /* ------------------------------- End Banner ------------------------------- */
 
-/* --------------------------- Start Category Shop -------------------------- */
-.Category-Shop .card-title{
+/* --------------------------- Start Category Shop And Blog Post -------------------------- */
+.Category-Shop .card-title, .Blog-post .card-title{
     font-size: 16px;
 }
 .Category-Shop .card-text{
     font-size: 14px;
     word-spacing: 5px;
 }
-.Category-Shop .btn-somewhere{
+.Category-Shop .btn-somewhere , .Blog-post .btn-somewhere{
     font-size: 12px;
     padding: 8px 15px;
     color: white;
@@ -164,14 +164,49 @@ ul{
 .Category-Shop .btn-somewhere:hover{
     background-color: #414141;
 }
+.Blog-post .btn-somewhere:hover{
+    background-color: #EB3F5F;
+}
 .Category-Shop svg{
     fill: #737378;
 }
-.Category-Shop i:last-child{
+.Category-Shop i:last-child , .Blog-posti i:last-child{
     cursor: pointer;
 }
-.Category-Shop h5{
+.Category-Shop h5:last-child , .Blog-post h5:last-child{
     font-size: 11px;
     color: #A0A0A7;
 }
-/* ---------------------------- End Category Shop --------------------------- */
+.Blog-post .fa-chevron-left{
+    position: absolute;
+    left: 40px;
+}
+.Blog-post .bi-chevron-right{
+    position: absolute;
+    right: 70px;
+}
+.Blog-post .col-lg-12:nth-child(2) .card-body{
+    height: 125px !important;
+}
+.Blog-post .col-lg-12:nth-child(2) .card-body .card-text{
+    color: #5d656c;
+    font-size: 13px;
+    line-height: 2;
+}
+.Blog-post .col-lg-12:nth-child(2) .card-body .bi-chat{
+    transform: rotateY(180deg);
+}
+.Blog-post .col-lg-12:nth-child(2) .card-body .card-text:nth-child(2){
+    font-size: 11px;
+    color: #9a9a9a;
+}
+.Blog-post .col-lg-12:nth-child(2) .card-body .card-text:nth-child(2) i{
+    color: #363636;
+}
+.Blog-post .col-lg-12:nth-child(2) .card-body .card-link{
+    transition: .2s all ease-in-out;
+}
+.Blog-post .col-lg-12:nth-child(2) .card-body .card-link:hover{
+    color: #EB3F5F;
+}
+/* ---------------------------- End Category Shop and Blog Post --------------------------- */
