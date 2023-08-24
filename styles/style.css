@@ -15,6 +15,10 @@ html{
     font-family: 'sahel';
     src: url('../font/Sahel-Bold-FD.ttf') format('truetype');
 }
+@font-face {
+    font-family: 'sahelBD';
+    src: url('../font/Sahel-Bold.aff79e52.woff2') format('woff2');
+}
 body{
     font-family: 'vazir', sans-serif;
     font-size: 16px;
@@ -130,19 +134,19 @@ ul{
     height: 425px;
     background-color: red;
 }
-.banner .card{
+.banner .card , .Blog-post .card{
     overflow: hidden;
     cursor: pointer;
 }
-.banner .card img{
+.banner .card img , .Blog-post .col-lg-6:nth-child(3) .card img{
     transition: .5s all ease-in-out;
     filter: brightness(60%);
 }
-.banner .card:hover img{
+.banner .card:hover img , .Blog-post .col-lg-6:nth-child(3) .card:hover img{
     transform: scale(1.1);
 }
-.banner .card .card-img-overlay .card-title{
-    font-family: sahel;
+.banner .card .card-img-overlay .card-title , .Blog-post .card .card-img-overlay .card-title {
+    font-family: sahelBD !important;
     font-size: 21px !important;
 }
 /* ------------------------------- End Banner ------------------------------- */
@@ -208,5 +212,19 @@ ul{
 }
 .Blog-post .col-lg-12:nth-child(2) .card-body .card-link:hover{
     color: #EB3F5F;
+}
+.Blog-post .overlay-cards .card .card-text{
+    color:#f3f3f3;
+    font-size: 13px;
+}
+.Blog-post .card .card-img-overlay .fw-bold{
+    font-size: 18px !important;
+    white-space:nowrap;
+    margin-top: 21%;
+}
+.Blog-post .overlay-cards .col-lg-6:nth-child(3) .card .card-img-overlay .fw-bold{
+    white-space:normal;
+    margin-top: 14% !important;
+    line-height: 1.85;
 }
 /* ---------------------------- End Category Shop and Blog Post --------------------------- */
