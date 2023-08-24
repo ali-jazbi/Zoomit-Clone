@@ -25,7 +25,7 @@ body{
     background-color: #F9F9F9;
     color: #000;
     overflow-x: hidden;
-    height: 5000px;
+    /* height: 5000px; */
 }
 /* scroll bar custom */
 ::-webkit-scrollbar {
