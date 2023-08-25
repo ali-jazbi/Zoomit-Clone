@@ -135,6 +135,25 @@ ul{
     height: 12px;
     color: white !important;
 }
+
+.nav .box-hover{
+  width: 470px;
+  height: 285px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  top: 42px;
+  border-radius: 10px;
+  visibility: hidden;
+  opacity: 0;
+  transition: .1s all ease-in-out;
+  cursor: default;
+  white-space: nowrap;
+}
+.nav .nav-link:hover + .box-hover,
+.nav .box-hover:hover {
+  visibility: visible !important;
+  opacity: 1 !important;
+}
 /* ------------------------------- End lg navbar ------------------------------- */
 
 /* ------------------------------ Start Banner ------------------------------ */
